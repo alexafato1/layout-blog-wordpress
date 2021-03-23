@@ -7,6 +7,7 @@
     <title>Главная | Блог</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/category.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
@@ -21,38 +22,16 @@
                       <li class="nav__item"><a href="#" class="nav__link nav__link--current">Главная</a></li>
                       <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
                       <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
-                      <li class="nav__item"><a href="#" class="nav__link search-link">Поиск</a></li>
+                      <li class="nav__item"><a href="#" class="nav__link">Поиск</a></li>
                   </ul>
                 </nav>
                 <a href="tel:+79864532167" class="phone">+7 (986) 453-21-67</a>
           </div>
         </div>
-        <div class="header-search">
-            <button class="btn-reset header-search__close">
-                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<g clip-path="url(#clip0)">
-						<path
-							d="M0.141602 0.834488C-0.0458984 0.646988 -0.0458984 0.334925 0.141602 0.140869C0.335657 -0.0466309 0.641164 -0.0466309 0.83522 0.140869L4.99737 4.31001L9.16651 0.140869C9.35401 -0.0466309 9.66608 -0.0466309 9.85314 0.140869C10.0472 0.334925 10.0472 0.647425 9.85314 0.834488L5.69099 4.99708L9.85314 9.16622C10.0472 9.35372 10.0472 9.66578 9.85314 9.85984C9.66564 10.0473 9.35358 10.0473 9.16651 9.85984L4.99737 5.69069L0.83522 9.85984C0.641164 10.0473 0.335657 10.0473 0.141602 9.85984C-0.0458984 9.66578 -0.0458984 9.35328 0.141602 9.16622L4.30375 4.99708L0.141602 0.834488Z"
-							fill="#2F2222" />
-					</g>
-					<defs>
-						<clipPath id="clip0">
-							<rect width="10" height="10" fill="white" />
-						</clipPath>
-					</defs>
-				</svg>
-            </button>
-            <form action="" class="header-search__form sub-form">
-                <input type="text" class=" sub-form__input header-search__input " placeholder="Ввод текста">
-                <button class="header-search__btn sub-form__btn form-btn ">
-                    <span>Поиск</span> 
-                </button>
-            </form>
-        </div>
     </header>
     <main class="main">
-        <section class="banner">
-            <h1 class="visually-hidden">Сайт-блог про интернет технологии</h1>
+        <section class="category-banner">
+            <h1 class="category-banner__title">Категория 1</h1>
 
         </section>
         <section class="content">
@@ -62,8 +41,8 @@
                   <article class="blog-post blog-post--main">
                       <a href="#cat" class="blog-post__category">Категория 1</a>
                       <h3 class="blog-post__title blog-title ">
-                        <a href="https://vk.com/" class="blog-post__link">Суд оштрафовал Apple на 300 миллионов долларов за нарушение патента
-                        </a></h3>
+                        <a href="https://vk.com/" class="blog-post__link">Суд оштрафовал Apple на 300 миллионов долларов за нарушение патента</h3>
+                        </a>
                       <p class="blog-post__desc">
                         Заседание суда прошло в пятницу, 19 марта, где после пятидневного разбирательства в Маршалле, штат Техас, жюри удовлетворило иск компании Personalized Media. Истец считает, что Apple нарушила патент, использовав технологию FairPlay для распространения зашифрованного контента в приложениях iTunes, App Store и Apple Music.
                       </p>
@@ -78,9 +57,6 @@
 								Управление ИТ-активами – скучная рутина или творческая задача?
 							</a>
 						</h3>
-                        <p class="blog-post__desc">
-                            Заседание суда прошло в пятницу, 19 марта, где после пятидневного разбирательства в Маршалле, штат Техас, жюри удовлетворило иск компании Personalized Media. Истец считает, что Apple нарушила патент, использовав технологию FairPlay для распространения зашифрованного контента в приложениях iTunes, App Store и Apple Music.
-                          </p>
                         <time class="blog-post__date">23/03/2021</time>
                         </article>
                      </li>
@@ -106,7 +82,6 @@
                         <time class="blog-post__date">23/03/2021</time>
                         </article>
                      </li>
-
                      <li class="post-grid__item">
                         <article class="blog-post" style="background-image: url('');">
                        <a href="" class="blog-post__category">Категория 1</a>
@@ -115,20 +90,30 @@
                             Управление ИТ-активами – скучная рутина или творческая задача?
                         </a>
                     </h3>
-                   
                        <time class="blog-post__date">23/03/2021</time>
                        </article>
                     </li>
+                   
+
                     <li class="post-grid__item">
                         <article class="blog-post" style="background-image: url('');">
                        <a href="#cat" class="blog-post__category">Категория 1</a>
                        <h3 class="blog-post__title blog-title">
-                           <a href="https://vk.com/" class="blog-post__link">
-                               Управление ИТ-активами – скучная рутина или творческая задача?
-                           </a>
-                       </h3>
-                      
-                     
+                        <a href="#link" class="blog-post__link">
+                            Управление ИТ-активами – скучная рутина или творческая задача?
+                        </a>
+                    </h3>
+                       <time class="blog-post__date">23/03/2021</time>
+                       </article>
+                    </li>
+                    <li class="post-grid__item">
+                       <article class="blog-post" style="background-image: url('');">
+                       <a href="cat" class="blog-post__category">Категория 1</a>
+                       <h3 class="blog-post__title blog-title">
+                        <a href="#link" class="blog-post__link">
+                            Управление ИТ-активами – скучная рутина или творческая задача?
+                        </a>
+                    </h3>
                        <time class="blog-post__date">23/03/2021</time>
                        </article>
                     </li>
@@ -136,51 +121,37 @@
                        <article class="blog-post" style="background-image: url('');">
                        <a href="" class="blog-post__category">Категория 1</a>
                        <h3 class="blog-post__title blog-title">
-                           <a href="#link" class="blog-post__link">
-                               Управление ИТ-активами – скучная рутина или творческая задача?
-                           </a>
-                       </h3>
-                       <p class="blog-post__desc">
-                        Заседание суда прошло в пятницу, 19 марта, где после пятидневного разбирательства в Маршалле, штат Техас, жюри удовлетворило иск компании Personalized Media. Истец считает, что Apple нарушила патент, использовав технологию FairPlay для распространения зашифрованного контента в приложениях iTunes, App Store и Apple Music.
-                      </p>
+                        <a href="#link" class="blog-post__link">
+                            Управление ИТ-активами – скучная рутина или творческая задача?
+                        </a>
+                    </h3>
                        <time class="blog-post__date">23/03/2021</time>
                        </article>
                     </li>
                     <li class="post-grid__item">
-                       <article class="blog-post" style="background-image: url('./img/apple.webp');">
-                       <a href="" class="blog-post__category">Категория 1</a>
-                       <h3 class="blog-post__title blog-title">
-                           <a href="#link" class="blog-post__link">
-                               Управление ИТ-активами – скучная рутина или творческая задача?
-                           </a>
-                       </h3>
-                       <time class="blog-post__date">23/03/2021</time>
-                       </article>
-                    </li>
-
-                    <li class="post-grid__item">
-                       <article class="blog-post" style="background-image: url('');">
+                       <article class="blog-post" style="background-image: url('./img/news8.webp');">
                       <a href="" class="blog-post__category">Категория 1</a>
                       <h3 class="blog-post__title blog-title">
-                       <a href="#link" class="blog-post__link">
-                           Управление ИТ-активами – скучная рутина или творческая задача?
-                       </a>
-                   </h3>
+                        <a href="#link" class="blog-post__link">
+                            Управление ИТ-активами – скучная рутина или творческая задача?
+                        </a>
+                    </h3>
                       <time class="blog-post__date">23/03/2021</time>
                       </article>
                    </li>
+
                    <li class="post-grid__item">
                     <article class="blog-post" style="background-image: url('');">
-                   <a href="" class="blog-post__category">Категория 1</a>
-                   <h3 class="blog-post__title blog-title">
-                    <a href="#link" class="blog-post__link">
-                        Управление ИТ-активами – скучная рутина или творческая задача?
-                    </a>
-                </h3>
-                   <time class="blog-post__date">23/03/2021</time>
-                   </article>
-                </li>
-                <li class="post-grid__item">
+                    <a href="" class="blog-post__category">Категория 1</a>
+                    <h3 class="blog-post__title blog-title">
+                        <a href="#link" class="blog-post__link">
+                            Управление ИТ-активами – скучная рутина или творческая задача?
+                        </a>
+                    </h3>
+                    <time class="blog-post__date">23/03/2021</time>
+                    </article>
+                 </li>
+                 <li class="post-grid__item">
                     <article class="blog-post" style="background-image: url('');">
                    <a href="" class="blog-post__category">Категория 1</a>
                    <h3 class="blog-post__title blog-title">
@@ -224,7 +195,7 @@
                             <li class="popular-posts__item ">
                                 <article class="blog-post popular-posts__article">
                                     <h3 class="blog-post__title blog-title">
-										<a href="" class="blog-post__link">Открылась регистрация на участие в онлайн-конференции NVIDIA GTC</a>
+										<a href="" class="blog-post__link">ITAM&SAMDay – самая настоящая удача!</a>
 									</h3>
                                    
                                     <time class="blog-post__date">23/03/2021</time>
@@ -233,7 +204,7 @@
                             <li class="popular-posts__item ">
                                 <article class="blog-post popular-posts__article">
                                     <h3 class="blog-post__title blog-title">
-										<a href="" class="blog-post__link">Как переход со стека Nginx+FPM на Swoole увеличил производительность PHP API на 91%</a>
+										<a href="" class="blog-post__link">ITAM&SAMDay – самая настоящая удача!</a>
 									</h3>
                                    
                                     <time class="blog-post__date">23/03/2021</time>
@@ -243,9 +214,9 @@
                     </div>
                     <div class="subscribe">
                         <h3 class="subscribe__title blog-title">Подписка на рассылку</h3>
-                        <form action="" class=" sub-form">
+                        <form action="" class="subscribe__from sub-form">
                             <input type="email" class="sub-form__input form-input" placeholder="Email@gmail.com"> 
-                            <button class="sub-form__btn form-btn ">
+                            <button class="sub-form__btn form-btn">
                                 <span>Подписаться</span>
                               
                             </button>
@@ -273,19 +244,5 @@
                   <small class="footer__copy">ООО "Организация" 2020. Все права защищены</small>
             </div>
         </footer>   
-        <script>
-            const searchLink = document.querySelector('.search-link');
-            const searchBlock = document.querySelector('.header-search');
-            const searchClose = document.querySelector('.header-search__close');
-            searchLink.addEventListener('click', () => {
-                searchBlock.style.display = 'block';
-            });
-
-            searchClose.addEventListener('click', () => {
-                searchBlock.style.display = 'none';
-                console.log(searchBlock);
-            });
-
-        </script>
 </body>
 </html>

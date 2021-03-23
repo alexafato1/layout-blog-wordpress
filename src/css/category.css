@@ -1,0 +1,11 @@
+ .category-banner {
+     height: 180px;
+     background-color: rgb(238, 238, 238);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .category-banner__title {
+   color: var(--accent-color);
+ } 

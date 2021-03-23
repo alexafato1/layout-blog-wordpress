@@ -1,0 +1,30 @@
+.search-blocks {
+	padding: 80px 0;
+}
+
+.search-blocks__title {
+	font-size: 30px;
+	line-height: 38px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.search-blocks__container {
+	max-width: 1070px;
+}
+
+.not-found-text {
+    display: block;
+    text-align: center;
+    line-height: 23px;
+    text-align: center;
+    color: var(--p-color);
+}
+
+.footer__bottom {
+   min-height: 100vh;
+   display: grid;
+   grid-template-rows: auto 1fr auto; 
+   grid-template-columns: 100%;
+}
+

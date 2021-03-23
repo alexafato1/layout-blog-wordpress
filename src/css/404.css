@@ -1,0 +1,29 @@
+ .not-found {
+     padding: 125px 0;
+ }
+ .not-found__img {
+    margin-bottom: 40px;
+ }
+
+ .not-found__title {
+    margin-bottom: 40px;
+    font-style: 30px;
+    line-height: 38px;
+ }
+
+ .not-found__container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .not-found__back {
+     display: inline-block;
+     align-items: center;
+     padding: 10px 17px;
+     
+     background:rgba(93, 113, 221, 0.05);
+     border-radius: 8px;
+     font-size: 18px;
+     color: var(--accent-color);
+ }

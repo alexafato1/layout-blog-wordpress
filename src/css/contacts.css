@@ -1,0 +1,69 @@
+.contacts{
+  padding-top: 140px;
+}
+.contacts__container{
+  display: flex;
+  
+}
+
+.contacts__left{
+    width: calc(50%-10px);
+    padding-top: 40px;
+    padding-left: 120px;
+    width: 50%;
+}
+
+.contacts__right{
+    width: calc(50%-10px);
+    padding: 40px;
+    background-color: white;
+    width: 50%;
+    margin-right: 120px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+
+.contacts__phone{
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.address{
+  background-image: url('../img/location-pin\ 1.svg');
+  background-position: left center 0;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  color: var(--accent-color);
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    
+}
+
+.social__item:not(:last-child) {
+   margin-right: 18px;
+}
+
+.social__link{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-position: center ;
+    background-size: cover;
+}
+
+.social__link--fb{
+  background-image: url('../img/Facebook.svg');
+}
+.social__link--vk{
+  background-image: url('../img/VK.svg');
+}
+.social__link--tw{
+  background-image: url('../img/Twitter.svg'); 
+}
+.social__link--insta{
+    background-image: url('../img/Instagram.svg'); 
+}
